@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adesh Portfolio</title>
+    <link rel="stylesheet" href="styleit.css">
+    <script src="https://kit.fontawesome.com/64572aa225.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="contain">
+
+            <nav>
+                <img src="Images/Adesh Tanmay.png" alt="Logo Here" class=logo>
+                <ul id="sidebar">
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="headtext">
+                <P>SAW Developer</P>
+                <h1>Hii, This is <span>Adesh </span> Tanmay<br>From <span>INDIA</span></h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- ----------- Second Part of the Code ------------ -->
+    <div id="about">
+        <div class="containon">
+            <div class="rows">
+                <div class="coloumn-1">
+                    <img src="Images/adesh.jpg" alt="Adesh Tanmay Photo">
+                </div>
+                <div class="coloumn-2">
+                    <h1 class="aboutus">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta dolorum tempore magni facilis.
+                        Repellendus quibusdam quae dolorum est rerum deserunt, quis fugit nihil in ducimus debitis
+                        fugiat sequi ipsa nobis.</p>
+
+                    <div class="skills">
+                        <p class="sub-skils acts" onclick="opentab('skills')">Skills</p>
+                        <p class="sub-skils" onclick="opentab('experience')">Experience</p>
+                        <p class="sub-skils" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="content active-tab" id="skills">
+                        <ul>
+                            <li><span>SAW</span><br>Software Developer, Web Developer, App Developer</li>
+                            <li><span>Software Development</span><br>Windows and Linux Software</li>
+                            <li><span>Web Development</span><br>Website Development + Wordpress</li>
+                        </ul>
+                    </div>
+
+                    <div class="content" id="experience">
+                        <ul>
+                            <li><span>Software</span><br>4 years of Development</li>
+                            <li><span>Web Application</span><br>4 years of Development</li>
+                            <li><span>Mobile Application</span><br>1 years of Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="content" id="education">
+                        <ul>
+                            <li><span>Loyola High School - Current</span><br>Currently in 8th Standard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- -----------------Service----------------- -->
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-serve">My Services</h1>
+                <div class="list-of">
+                    <div>
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eveniet nisi reiciendis
+                            dolore ipsa esse eos consectetur. Quis, voluptates vel molestiae deleniti vitae eos,
+                            numquam, quo ratione porro delectus nisi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eveniet nisi reiciendis
+                            dolore ipsa esse eos consectetur. Quis, voluptates vel molestiae deleniti vitae eos,
+                            numquam, quo ratione porro delectus nisi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h2>Software Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eveniet nisi reiciendis
+                            dolore ipsa esse eos consectetur. Quis, voluptates vel molestiae deleniti vitae eos,
+                            numquam, quo ratione porro delectus nisi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-uncharted"></i>
+                        <h2>Software Development </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eveniet nisi reiciendis
+                            dolore ipsa esse eos consectetur. Quis, voluptates vel molestiae deleniti vitae eos,
+                            numquam, quo ratione porro delectus nisi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------Portfolio Section C------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-portfolio">My Portfolio</h1>
+                <div class="list-work">
+                    <div class="work">
+                        <img src="Images/browser.png" alt="My Browser">
+                        <div class="overlay">
+                            <h3>Browser Software</h3>
+                            <p>This is a browser software made by Adesh Tanmay, You open any link in this browser, You
+                                can go endless with some features</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/ide.png" alt="My Python IDE">
+                        <div class="overlay">
+                            <h3>Python IDE</h3>
+                            <p>This is a Python IDE made in python programming Language you can Save, Run, Open your
+                                files</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/docs.png" alt="My Docs">
+                        <div class="overlay">
+                            <h3>Clone Version of Microsoft Docs</h3>
+                            <p>This is a clone version of Microsoft docs made by Adesh Tanmay in python Programming
+                                language and you can undo, redo, copy, cut, rezie your font and choose some of the font
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Adesh Tanmay</p>
+            </div>
+        </div>
+
+        <script>
+
+            var contentskill = document.getElementsByClassName('acts');
+            var content_content = document.getElementsByClassName('content');
+
+            function opentab(nameoftab) {
+                for (contentskills of contentskill) {
+                    contentskills.classList.remove("acts");
+                }
+
+                for (content_contents of content_content) {
+                    content_contents.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("acts");
+                document.getElementById(nameoftab).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemen = document.getElementById("sidebar");
+
+            function openmenu(){
+                sidemen.style.right = "0";
+            }
+
+            
+            function closemenu(){
+                sidemen.style.right = "-200px";
+            }
+
+
+        </script>
+</body>
+
+</html>
